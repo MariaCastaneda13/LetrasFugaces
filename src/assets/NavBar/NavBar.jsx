@@ -1,3 +1,4 @@
+import CarWidget from '../CarWidget/CarWidget';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -8,16 +9,15 @@ const NavBar = () => {
         <ul>
             <li>Biografías</li>
             <li>Ciencias</li>
-            <li>Computación</li>
             <li>Derecho</li>
             <li>Ficción</li>
             <li>Historia</li>
-            <li>Infantil</li>
             <li>Medicina</li>
             <li>Novelas</li>
-            <li>Salud y desarrollo personal</li>
+            <li>Superación personal</li>
         </ul>
     </nav>
+    <CarWidget/>
     </header>
     
   )
