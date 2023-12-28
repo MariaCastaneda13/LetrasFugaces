@@ -1,5 +1,5 @@
 
-const ItemListContainer = ({greeting}) => {
+const ItemListContainer=({ greeting })=> {
   return (
     <h2>{greeting}</h2>
   )
