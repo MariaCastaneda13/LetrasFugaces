@@ -5,6 +5,7 @@ import {Link, NavLink} from "react-router-dom";
 const NavBar = () => {
   return (
     <header>
+      
       <Link to="/">
         <h1>Letras fugaces</h1>
         </Link>
@@ -31,6 +32,7 @@ const NavBar = () => {
               </NavLink>
               </li>
         </ul>
+    
     </nav>
     <CarWidget/>
     </header>
